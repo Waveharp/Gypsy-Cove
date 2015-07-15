@@ -1,0 +1,49 @@
+@media screen and (min-width: 660px) {
+	
+	/**********************************
+    HEADER
+    ***********************************/
+    
+	#logo {
+	  float: left;
+	  margin-left: 5%;
+	  text-align: left;
+	  width: 45%;
+	}
+
+	header {
+	  border-bottom: 5px solid #60047A;
+	  margin-bottom: 60px;
+	}
+
+	header h1 {
+		font-size: 2.5em;
+	}
+
+	header h2 {
+		font-size: 1.5em;
+		margin-bottom: 20px;
+	}
+
+    /**********************************
+    NAVIGATION
+    ***********************************/
+
+    nav {
+    	float: right;
+    	font-size: 1.125em;
+    	margin-right: 5%;
+    	text-align: right;
+    	width: 45%;
+
+    	background: none;
+    }
+
+}
+
+/* To Do 
+	Shrink header
+	Nav under header
+	Move phone number/address
+	fix image carousel
+*/

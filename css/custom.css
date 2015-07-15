@@ -1,0 +1,211 @@
+/* User Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* COLOR SCHEMES */
+
+/* Dark Sunset
+  #F2671F
+  #C91B26
+  #9C0F5F
+  #60047A
+  #160A47
+*/
+/*#3498DB*/
+
+/* look at
+02 Cardsox
+03 Fitz Fitzpatrick
+36 Secret Key
+38 Viximo
+48 LRXD */
+
+
+/* TESTING */
+
+
+
+/* GENERAL */
+
+.content {
+  clear:both;
+}
+
+body {
+  background-image: url('../images/confectionary-blue.png');
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/* HEADER */
+
+/* trying to override max-width of container */
+div #main-header {
+  max-width: 100%;
+  width: 100%;
+}
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+
+  background: #9C0F5F;
+  color: white;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+
+  color: white;
+}
+
+header h1 {
+  margin: 15px 0;
+  font-size: 2em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+header h2 {
+  font-size: 1em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+.header-info {
+  float: right;
+  background: none;
+  margin-right: 5%;
+  text-align: right;
+  width: 45%;
+
+  color: #fff;
+}
+
+.header-info a {
+  text-decoration: none;
+
+  color: #fff;
+}
+
+
+
+/* Navigation */
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+
+    background: #60047A;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+
+nav a, nav a:visited {
+  color: #fff;
+}
+
+nav a.selected, nav a:hover {
+  color: #160A47;
+}
+
+
+
+/* PAGE: GALLERY */
+
+/* Change color of slick carousel arrows */
+.slick-prev:before, .slick-next:before {
+  color: #9C0F5F !important;
+}
+
+/* Center images in carousel */
+div img {
+  margin: 0 auto;
+  /*scale images */
+  max-width: 100%;
+  /*make images a little shorter in mobile view
+  THERE'S A BETTER WAY TO DO THIS, SO FIX IT LATER!!! *** */
+  max-height: 230px;
+}
+
+
+
+/* PAGE: BLOG */
+
+
+
+/* PAGE: ABOUT */
+
+.hours,
+.contact,
+.location,
+.about {
+  padding-bottom: 1.25em;
+}
+
+.hours h4,
+.contact h4,
+.location h4,
+.about h4 {
+  text-align: center;
+}
+
+.services dd {
+  padding-bottom: 1em;
+}
+
+table {
+  margin: 0 auto;
+}
+
+th, td {
+  border-bottom: 1px solid #9C0F5F;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+
+  color: #9C0F5F;
+}
+
+.contact-info li.phone a {
+  background-image: url('../images/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../images/mail.png');
+}
+
+
