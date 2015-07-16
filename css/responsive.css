@@ -39,6 +39,15 @@
     	background: none;
     }
 
+    /**********************************
+    IMAGE GALLERY
+    ***********************************/
+
+    div img {
+      /* expand image size in larger browser */
+      max-height: 100%
+    }
+
 }
 
 /* To Do 
