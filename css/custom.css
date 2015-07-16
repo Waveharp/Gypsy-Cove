@@ -155,6 +155,19 @@ div img {
 
 
 
+/* PAGE: EVENTS */
+
+.specials {
+  padding: 0 10px 10px 10px;
+}
+
+
+.specials h3 {
+  text-align: center;
+}
+
+
+
 /* PAGE: ABOUT */
 
 .hours,
